@@ -12,6 +12,11 @@ img {
   max-width: 100%;
 }
 
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
 .navbar {
   display: flex;
   position: fixed;
@@ -25,16 +30,62 @@ img {
 
 .navlinks {
   display: flex;
-
+  padding: 5px;
+  width: auto;
+  margin-left: auto;
 }
 
-a:hover, a:visited {
+a, a:hover, a:visited {
   color: seashell;
+  padding: 10px;
 }
 
 .logo {
   height: 50px;
   width: auto;
   padding-left: 10px;
+  margin: 0;
+}
+
+.mission {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  margin: 0 auto;
+  background-image: url(../images/img-mission-background.jpg);
+}
+
+.missiontext {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: black;
+  width: inherit;
+}
+
+.menu {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+}
+
+.menu.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea p {
+  text-align: center;
+  padding: 10px;
   margin: 0;
 }
